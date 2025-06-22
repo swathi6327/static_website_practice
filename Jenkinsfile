@@ -14,7 +14,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 git(
-                 branch: "main", url: "https://github.com/swathi6327/assignment1.git",
+                 branch: "main", url: "https://github.com/swathi6327/static_website_practice.git",
                  credentialsId: 'GIT-CRED'
                 )    
             }
